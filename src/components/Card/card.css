@@ -1,0 +1,112 @@
+.job-card {
+    background-color: white;
+    cursor: pointer;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 0px 2px rgb(0 0 0 / 25%);
+}
+
+.job-card-type {
+    display: flex;
+    flex-direction: row-reverse;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.job-card-role {
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.job-location {
+    color: #838383;
+}
+.job-time {
+    color: rgb(64, 221, 64);
+}
+.job-card-content {
+    padding: 10px;
+    box-shadow: 0px 0px 2px rgb(0 0 0 / 25%);
+    border-radius: 8px;
+    width: 100%;
+}
+
+.job-card-top {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 14px;
+    border-bottom: 1px;
+    border-bottom-style: double;
+    border-color: rgb(190, 185, 185);
+    width: 100%;
+    transition: 0.2s;
+}
+.job-card-salary {
+    font-size: 14px;
+    font-weight: 900;
+}
+.job-card-time_location {
+    display: flex;
+}
+.job-card-details {
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    line-height: 1.75rem;
+    
+}
+
+.job-card-company {
+    display: flex;
+    align-items: baseline;
+}
+
+.job-card-others {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.job-card-bottom {
+    min-height: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 5px 0 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.job-card-tech_stacks {
+    display: flex;
+    gap: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.tech {
+    background-color: #f1f1f1;
+    font-weight: bold;
+    padding: 5px 5px;
+    color: #838383;
+    display: inline-block;
+    text-overflow: ellipsis;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.job-card-type {
+    border-radius: 8px;
+    background-color: #DDF7E9;
+    color: #1fc76a;
+    height: max-content;
+    width: max-content;
+    padding: 5px 8px;
+    font-weight: 600;
+    position: absolute;
+    right: 51%;
+}
+
+.job-card-icon {
+    width: 15%;
+    padding-right: 10px;
+}
